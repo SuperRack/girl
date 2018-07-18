@@ -10,3 +10,8 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    mode: HTML5
+    encoding: UTF-8

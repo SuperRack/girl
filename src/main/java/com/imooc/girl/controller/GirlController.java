@@ -76,6 +76,7 @@ public class GirlController {
 
     @RequestMapping(value = "/girl/two")
     public void girlTwo(){
+
         girlService.insertTwo();
     }
 
